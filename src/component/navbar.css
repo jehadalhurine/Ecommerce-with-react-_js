@@ -1,0 +1,138 @@
+
+.Head{
+    background-color: #0f3460;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+height: 40px;
+align-items: center;
+
+}
+.head-right{
+    display: flex;
+    color: white;
+    column-gap: 1.4rem;
+}
+ .Head ul{
+    list-style: none;
+    color: white;
+column-gap: 1.5rem;
+font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Search{
+    background-color: white;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Search .name-search{
+    color:#e94560;
+    font-size: 2rem;
+    font-weight: bold
+    ;
+    cursor: pointer;
+
+}
+.Search input{
+    width: 900px;
+    border-radius: 20px;
+    border-color:#e94560;
+    outline: none;
+    border-width: 2px;
+}
+.Search input:placeholder-shown{
+    padding-left: 20px;
+    font-size: 1rem;
+}
+.Search .search-left {
+font-size: 1.5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 2rem;
+text-align: center;
+}
+.active{
+    color: #e94560;
+}
+.Categores {
+padding: 30px 50px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo-categories{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #f6f5f5;
+    width: 240px;
+
+}
+.text-categories ul{
+    list-style: none;
+    column-gap: 1.5rem;
+font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-categories ul li:hover{
+color: #e94560;
+transition: 0.3s;
+
+}
+.Footer{
+    margin-top: 20px;
+    background-color: #0f3460;
+    height: 40vh;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        gap: 3rem;
+}
+.Footer span{
+    color: #e94560;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Footer p{
+    width: 30rem;
+    opacity: 0.5;
+}
+.Footer h2{
+    color: white;
+
+}
+.Footer ul li{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Footer button{
+    background-color: #0c2a4d;
+    padding: 14px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-color: #0c2a4d;
+}
+.Footer button:hover{
+    color: #0c2a4d;
+    background-color: white;
+    transition: 0.5s;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    gap: 1.3rem;
+}

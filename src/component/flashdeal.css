@@ -1,0 +1,78 @@
+.Flashdeal{
+height: 50vh;
+    padding: 30px 50px;
+    background-color: #f6f5f5;
+
+}
+.Flashdeal-head{
+    display: flex;
+    column-gap: 10px;
+}
+.Flashdeal  span{
+   color: #e94560;
+   font-size: 1.8rem;
+}
+.Flashdeal h3{
+    font-size: 1.8rem;
+}
+.Flashdealcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+  
+}
+.Falshdeal-card .card{
+    background-color: white;
+}
+ .card .cardspan{
+    background-color: #e94560;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+}
+.cardtext span{
+    font-size: 18px;
+    color: yellow;
+}
+.card span{
+    margin-left: 10px;
+}
+.card p{
+    margin-left: 10px;
+}  
+.cost{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost .salary{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.cost .icons{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #e94560;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(180, 178, 178);
+}
+.cost .icons:hover{
+    background-color:#e94560;
+    color: white;
+    transition: 0.4s;
+    border-color: #e94560;
+}
+.addx{
+    margin-top: 200px;
+}
+.ones img{
+  height: 280px;
+}

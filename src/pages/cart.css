@@ -1,0 +1,66 @@
+.shoping{
+    height: 50vh;
+    background-color: #f6f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btnclicked{
+    padding: 14px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.my.card{
+display: flex;
+flex-direction: row;
+gap: 4rem;
+height: auto;
+overflow: scroll;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+}
+
+.costing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.costing p{
+    text-align: center;
+    background-color:red;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+.costing span{
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #0f3460;
+}
+input{
+ width: 100%;
+ outline: none;
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}

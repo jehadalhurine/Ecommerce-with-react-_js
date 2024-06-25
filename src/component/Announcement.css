@@ -1,0 +1,40 @@
+.announc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50vh;
+    background-color: #0f3460;
+column-gap: 10rem;
+}
+.announc-text{
+    display: flex;
+    flex-direction: column;
+justify-content: center;    
+    text-align: start;
+height: 100px;
+line-height: 50px;
+    width: 50%;
+    color: white;
+    padding: 10px 50px;
+
+    }
+   .announc-img img{
+    height: 26rem;
+    
+   } 
+.announc-button{
+    width: 40%;
+    background-color: #e94560;
+    color: white;
+    border-radius: 5px;
+    border-color:#e94560;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.announc-button:hover{
+    background: transparent;
+    color: #e94560;
+    transition: .4s;
+}
